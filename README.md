@@ -1,2 +1,2 @@
-# API Monitoring
-This is my API monitoring research.
+# Theater
+A fancy Jekyll theme
