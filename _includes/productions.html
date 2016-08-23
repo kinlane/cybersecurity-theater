@@ -1,0 +1,50 @@
+ <!-- Productions Section -->
+  <section id="productions" class="container content-section productions-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Past Productions</h2>
+        <section id="main-slider" class="carousel" data-ride="carousel">
+          <div class="carousel slide">
+            <ol class="carousel-indicators">
+              {% for item in site.slideshow %}
+                {% if forloop.index == 1 %}
+                  <li data-target="#main-slider" data-slide-to="{{ forloop.index0 }}" class="active"></li>
+                {% else %}
+                  <li data-target="#main-slider" data-slide-to="{{ forloop.index0 }}"></li>
+                {% endif %}
+              {% endfor %}
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              {% for item in site.slideshow %}
+                {% if forloop.index == 1 %}
+                  <div class="item active" style="background-image: url({{ item.background_image_path }})" alt="{{ item.main_heading }}">
+                {% else %}
+                  <div class="item" style="background-image: url({{ item.background_image_path }})" alt="{{ item.main_heading }}">
+                {% endif %}
+                  <div class="container">
+                    <div class="row slide-margin">
+                      <div class="col-sm-6">
+                        <div class="carousel-content">
+                          <h1 class="animation animated-item-1">{{ item.main_heading }}</h1>
+                          <h3 class="animation animated-item-2">{{ item.date }}</h3>
+                          <h4 class="animation animated-item-2">Written by: {{ item.author }}</h4>
+                          <h4 class="animation animated-item-2">Directed by: {{ item.director }}</h4>
+                          <h4 class="animation animated-item-2">{{ item.location }}</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!--/.item-->
+              {% endfor %}
+            </div><!--/.carousel-inner-->
+          </div><!--/.carousel-->
+          <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+          </a>
+          <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+          </a>
+        </section><!--/#main-slider-->
+      </div>
+    </div>
+  </section>

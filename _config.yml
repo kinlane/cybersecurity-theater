@@ -1,14 +1,62 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Battalion Theatre
+email: battaliontheatre@gmail.com
+url:  http://battaliontheatre.github.io
+baseurl: ""
+description: "A New York based theatre company dedicated to following the fun to the truth of the human condition and then putting it in front of an audience."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+  accent: purple
+  highlight: yellow
+
+# Footer settings
+footer: Battalion Theatre
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/BattalionThtr
+  - title: facebook
+    url: https://facebook.com/BattalionTheatre
+  - title: instagram
+    url: https://instagram.com/BattalionTheatre
+
+slideshow:
+  - background_image_path: /img/slider/this-is-our-youth.jpg
+    main_heading: THIS IS OUR YOUTH
+    date:  March 10-19, 2016
+    author: Kenneth Lonergan
+    director: Gerrit Thurston
+    location: Dorothy Strelsin Theatre
+  - background_image_path: /img/slider/unhealthy.jpg
+    main_heading: UNHEALTHY
+    date: October 7-24, 2015
+    author: Darren Caulley
+    director: Kelly Teaford
+    location: The Kraine Theater
+  - background_image_path: /img/slider/the-tutors.jpg
+    main_heading: THE TUTORS
+    date: March 12-28, 2014
+    author: Erica Lipez
+    director: Gadi Rubin
+    location: The Kraine Theater
+  - background_image_path: /img/slider/drunken-city.jpg
+    main_heading: THE DRUNKEN CITY
+    date: September 11-28, 2014
+    author: Adam Bock
+    director: Emma Johnson
+    location: The Kraine Theater
+  - background_image_path: /img/slider/the-understudy.jpg
+    main_heading: THE UNDERSTUDY
+    date: May 22-24, 2014
+    author: Theresa Rebeck
+    director: Gadi Rubin
+    location: Under St. Mark's Theater & The Kraine Theater
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
