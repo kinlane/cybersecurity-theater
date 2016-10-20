@@ -275,11 +275,10 @@ a:focus {
 
 .bio img {
   width: 150px;
-  height: 187px;
   border: 2px solid white;
   float: left;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .bio-header {
