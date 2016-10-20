@@ -6,10 +6,10 @@
             <p>Some of the potential roles casting a shadow.</p>
             {% for org in site.data.organizations %}
               {% if org.tags contains 'Cybersecurity Roles' %}
-                <div class="bio">
+                <div class="roles">
                   <img src="{{ org.logo }}" alt="{{ org.name }}">
-                  <h3 class="bio-header">{{ org.name }}</h3>
-                  <p class="bio-text">{{ org.details }}
+                  <h3 class="roles-header">{{ org.name }}</h3>
+                  <p class="roles-text">{{ org.details }}
                     <!--<br>
                     <a href="{{ org.website }}" class="social">Website</a>-->
                   </p>
