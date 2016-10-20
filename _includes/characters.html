@@ -2,10 +2,10 @@
 <section id="about" class="container content-section about-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>Roles</h2>
-            <p>Some of the potential roles to be filled.</p>
+            <h2>Characters</h2>
+            <p>Some of the characters out there.</p>
             {% for org in site.data.organizations %}
-              {% if org.tags contains 'Cybersecurity Characters' %}
+              {% if org.tags contains 'Cybersecurity Character' %}
                 <div class="bio">
                   <img src="{{ org.logo }}" alt="{{ org.name }}">
                   <h3 class="bio-header">{{ org.name }}</h3>
