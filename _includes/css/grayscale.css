@@ -284,15 +284,13 @@ a:focus {
 .roles-header {
   padding-left: 20px;
   overflow: hidden;
-  font-size: 14px;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .roles-text {
   max-width: 800px;
   min-width: 300px;
-  padding-top: 5px;
   padding-left: 20px;
   overflow: hidden;
   font-size: 14px;
@@ -316,15 +314,13 @@ a:focus {
 .characters-header {
   padding-left: 20px;
   overflow: hidden;
-  font-size: 14px;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .characters-text {
   max-width: 800px;
   min-width: 300px;
-  padding-top: 5px;
   padding-left: 20px;
   overflow: hidden;
   font-size: 14px;
