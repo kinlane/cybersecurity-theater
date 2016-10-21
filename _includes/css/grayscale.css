@@ -282,13 +282,11 @@ a:focus {
 }
 
 .roles-header {
-  max-width: 800px;
-  min-width: 300px;
-  padding-top: 5px;
   padding-left: 20px;
   overflow: hidden;
   font-size: 14px;
   text-align: left;
+  font-size: 18px;
 }
 
 .roles-text {
@@ -316,13 +314,11 @@ a:focus {
 }
 
 .characters-header {
-  max-width: 800px;
-  min-width: 300px;
-  padding-top: 5px;
   padding-left: 20px;
   overflow: hidden;
   font-size: 14px;
   text-align: left;
+  font-size: 18px;
 }
 
 .characters-text {
